@@ -1,0 +1,25 @@
+.postal-details {
+    font-style: normal;
+    width: auto;
+    flex-flow: column;
+  }
+  
+  .postal-details__address {
+    color: var(--white);
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .postal-details__mail, .postal-details__tel {
+    color: var(--white);
+    opacity: 60%;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .postal-details__mail:hover, .postal-details__tel:hover {
+    color: var(--blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }

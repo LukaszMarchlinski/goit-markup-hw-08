@@ -1,0 +1,17 @@
+.join {
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: column;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-right: 78px;
+  }
+  
+  .join__title {
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin-top: -55px;
+    justify-content: flex-start;
+  }

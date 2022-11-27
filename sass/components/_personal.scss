@@ -1,0 +1,32 @@
+.personal-bacgraund {
+    background-color: var(--lightgray);
+    padding: 94px;
+    width: auto;
+    height: 460px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .personal {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .personal__list {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 50px;
+  }

@@ -1,0 +1,23 @@
+.portfolio-section {
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+.portfolio-section__list-4 {
+    list-style-type: none;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}

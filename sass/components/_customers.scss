@@ -1,0 +1,50 @@
+.customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 94px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  
+  .customers__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .customers__icon {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    margin: 0 auto;
+    padding: 0;
+    border: solid;
+    size: 1px;
+    color: var(--icony);
+    border-radius: 4px;
+  
+    &:hover {
+      color: var(--blue);
+      --color4:var(--blue);
+      --color2:var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
+  .customers__logo01, .customers__logo02, .customers__logo03, .customers__logo04, .customers__logo05, .customers__logo06 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }

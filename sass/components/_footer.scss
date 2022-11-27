@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--bacground);
+    width: auto;
+    height: auto;
+    padding: 60px;
+  }
+  
+  .footer__bacground {
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .footer__container {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-flow: column;
+  }
+  
+  .footer__logo-first {
+    color: var(--blue);
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+  }
+  
+  .footer__logo-next {
+    color: var(--white);
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+  }

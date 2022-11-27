@@ -1,0 +1,40 @@
+.socialmedia {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 10px;
+  }
+  
+  .socialmedia__instagram, .socialmedia__twitter, .socialmedia__facebook, .socialmedia__linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .socialmedia__circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 30px;
+  
+    &:hover {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: var(--blue);
+      --color5:var(--white);
+      --color4:var(--white);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }

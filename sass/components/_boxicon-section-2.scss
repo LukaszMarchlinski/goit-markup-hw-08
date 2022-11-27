@@ -1,0 +1,32 @@
+.boxicon {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: var(--lightgray);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.boxicon__antenna {
+    display: flex;
+    align-items: center;
+}
+
+.boxicon__clock {
+    display: flex;
+    align-items: center;
+}
+
+.boxicon__diagram {
+    display: flex;
+    align-items: center;
+}
+
+.boxicon__astronaut {
+    display: flex;
+    align-items: center;
+}

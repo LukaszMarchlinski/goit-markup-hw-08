@@ -1,0 +1,28 @@
+.section-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2F303A66;
+    background-image: url("../images/Imgb.jpg");
+    object-fit: cover;
+    box-shadow: inset 50px 50px 50px 50px rgb(47, 48, 58, 0.4), inset 1600px 600px 50px 50px rgb(47, 48, 58, 0.4);
+    width: 1600;
+    height: 600px;
+    justify-content: center;
+  }
+  
+  .section-banner__heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .section-banner__title {
+    color: var(--white);
+    font-size: 44px;
+    font-weight: 900;
+    width: 696px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    display: flex;
+  }

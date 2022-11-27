@@ -1,0 +1,23 @@
+.button-modal {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: 8px;
+    right: 8px;
+  }
+  
+  .button-modal__X {
+    fill: var(--black);
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  
+    &:hover {
+      fill: var(--blue);
+    }
+  }

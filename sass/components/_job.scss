@@ -1,0 +1,45 @@
+.job {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 94px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .job__list3 {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .job__whatimg {
+    position: relative;
+  }
+  
+  .job__whattext {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 0.03em;
+    padding: 0px;
+  }
+  .job__image{
+    display: block;
+  }
