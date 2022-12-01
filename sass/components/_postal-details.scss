@@ -1,3 +1,72 @@
+@media screen and (min-width: 480px) {
+  .postal-details {
+    display: flex;
+    text-align: center;
+    font-style: normal;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+  }
+  .postal-details__lista-footer {
+    display: flex;
+    padding: 0px;
+    flex-flow: column;
+    justify-content: space-between;
+    list-style-type: none;
+    margin:0px;
+
+  }
+  .postal-details__address {
+    display: flex;
+    flex-flow: column;
+    color: var(--white);
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .postal-details__mail {
+    display: flex;
+    flex-flow: column;
+    color: var(--white);
+    opacity: 60%;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 8px;
+
+    &:hover {
+      color: var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+    .postal-details__tel {
+    display: flex;
+    flex-flow: column;
+    color: var(--white);
+    opacity: 60%;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0px;
+    margin-top: 8px;
+    &:hover {
+    color: var(--blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
 .postal-details {
     font-style: normal;
     width: auto;
@@ -23,3 +92,4 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+}

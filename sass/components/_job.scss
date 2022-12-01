@@ -1,4 +1,5 @@
-.job {
+@media screen and (min-width: 1200px) {
+  .job {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,7 +9,8 @@
     width: 100%;
     margin: 0 auto;
   }
-  
+}
+
   .job__list3 {
     list-style-type: none;
     padding: 0;
@@ -43,3 +45,11 @@
   .job__image{
     display: block;
   }
+
+
+@media screen and (min-width: 480px) {
+  .job {
+  position:absolute;
+    display: none;
+}
+}

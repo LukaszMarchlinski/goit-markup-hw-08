@@ -16,14 +16,19 @@ body {
     color: var(--dark);
     font-size: 14px;
     background-color: var(--white);
+    margin: 0px;
 }
-.container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
+@media screen and (min-width: 480px) {
+.title {
+    color: var(--dark);
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
     display: flex;
-    align-items: center;
     margin: 0 auto;
+    padding: 0;
+}
 }
 .title {
     color: var(--dark);

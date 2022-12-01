@@ -1,0 +1,21 @@
+.button-modal-2 {
+  background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+    border:none;
+    top: 21px;
+    right: 25px;
+    padding: 0px;
+  }
+  
+  .button-modal-2__X {
+    fill: var(--black);
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+  
+    &:hover {
+      fill: var(--blue);
+    }
+  }

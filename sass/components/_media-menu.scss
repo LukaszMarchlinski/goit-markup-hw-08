@@ -1,0 +1,31 @@
+.media-menu {
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    padding: 0px;
+    gap: 10px;
+}
+
+
+.media-menu__facebookt, .media-menu__twittert, .media-menu__instagramt{
+    font-size: 18px;
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    padding: 0;
+    display: flex;
+    padding-right: 10px;
+    border-right: 1px solid var(--gray);
+}
+.media-menu__linkedint  {
+    font-size: 18px;
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    padding: 0;
+    display: flex;
+}

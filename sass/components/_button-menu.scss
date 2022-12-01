@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 480px){
+    .mobile-menu {
+    margin-left: auto;
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    }}
+
+
+
+@media screen and (min-width: 480px){
+.mobile-menu__button-menu {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    cursor: pointer;
+
+    &:hover {
+        fill: var(--blue);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+}
+@media screen and (min-width: 1200px) {
+    .mobile-menu__button-menu {
+        display:none;
+    }
+}

@@ -1,0 +1,82 @@
+.menu-2__list {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 0px;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-top: 48px;
+  }
+
+  .menu-2__agency2 {
+    font-size: 40px;
+    align-items: center;
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+    
+
+    &:visited {
+        color: var(--black);
+      }
+  
+    &:hover {
+      color: var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
+  .menu-2__portfolio2 {
+    display: flex;
+    margin-top: 32px;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+  
+    &:visited {
+      color: var(--black);
+    }
+  
+    &:hover {
+      color: var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  .menu-2__contact2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    margin-top: 32px;
+  
+    &:visited {
+      color: var(--black);
+    }
+  
+    &:hover {
+      color: var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  .menu-2__tel-address2 {
+    font-size: 32px;
+    color: var(--blue);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    margin-top: 302px;
+  }
+  .menu-2__mail-address2 {
+    font-size: 24px;
+    color: var(--gray);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }

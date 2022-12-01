@@ -1,4 +1,13 @@
-.mail__address {
+
+
+@media screen and (min-width: 480px){
+  .mail__address {
+  display: none;
+  position: absolute;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mail__address {
     color: var(--gray);
     font-weight: 500;
     text-decoration: none;
@@ -12,6 +21,7 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
+
   
   .mail__envelope {
     display: flex;
@@ -24,3 +34,4 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
+}
