@@ -1,9 +1,13 @@
 @media screen and (min-width: 480px) {
+  
+ 
   .form {
+    
     display: flex;
-    flex-direction: column;
     align-items: center;
-      margin:0, auto;
+    vertical-align: auto;
+    margin: 0px;
+    flex-direction: column;
     }
     
     .form__title {
@@ -27,7 +31,7 @@
       font-size: 12px;
       font-weight: 400;
       color: var(--gray);
-      margin-left: 35px;
+      margin-left: 40px;
     }
     
     .form__fieldset {
@@ -49,11 +53,13 @@
     .form__name-ico {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       width: 12px;
       height: 12px;
       fill: var(--dark);
       margin-right: 15px;
       margin-left: 15px;
+      margin-top: 10px;
       padding: 0;
     }
     
@@ -63,6 +69,7 @@
       border: 0;
       background-color: transparent;
       font-size: 16px;
+      margin-top: 10px;
     
       &:focus {
         outline: none;
@@ -120,6 +127,7 @@
       height: 96px;
       display: flex;
       align-items: center;
+      margin-top: 14px;
       margin-left: 16px;
       padding: 0;
       border-color: transparent;
@@ -191,8 +199,11 @@
     }
     
     .form__stat-text {
+      display: flex;
+      font-size: 12px;
       color: var(--gray);
       font-weight: 400;
+      margin-left: 45px;
     }
     
     .form__stat-text-web {
