@@ -6,6 +6,7 @@
       flex-direction: column;
       width: 450px;
       height: 622px;
+      justify-content: center;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
       padding: 0;
@@ -14,25 +15,27 @@
   .emplyees__personal-img1 {
     display: flex;
     background-image: url("../images/1-JohnD-mobile.jpg");
-    width: 450px;
+    width: 100%;
     height: 460px;
-  }
+    justify-content: center;
+}
+
   .emplyees__personal-img2 {
     display: flex;
     background-image: url("../images/2-JohnD-mobile.jpg");
-    width: 450px;
+    width: auto;
     height: 460px;
   }
   .emplyees__personal-img3 {
     display: flex;
     background-image: url("../images/3-JohnD-mobile.jpg");
-    width: 450px;
+    width: auto;
     height: 460px;
   }
   .emplyees__personal-img4 {
     display: flex;
     background-image: url("../images/4-JohnD-mobile.jpg");
-    width: 450px;
+    width: auto;
     height: 460px;
   }
     
