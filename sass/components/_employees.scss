@@ -23,23 +23,27 @@
   .emplyees__personal-img2 {
     display: flex;
     background-image: url("../images/2-JohnD-mobile.jpg");
-    width: auto;
+    width: 100%;
     height: 460px;
+    justify-content: center;
   }
   .emplyees__personal-img3 {
     display: flex;
     background-image: url("../images/3-JohnD-mobile.jpg");
-    width: auto;
+    width: 100%;
     height: 460px;
+    justify-content: center;
   }
   .emplyees__personal-img4 {
     display: flex;
     background-image: url("../images/4-JohnD-mobile.jpg");
-    width: auto;
+    width: 100%;
     height: 460px;
+    justify-content: center;;
   }
     
     .emplyees__personal {
+      margin-top: 30px;
       font-size: 16px;
       font-weight: 500;
       letter-spacing: 0.03em;
@@ -52,6 +56,10 @@
       font-weight: 400;
       letter-spacing: 0.03em;
       align-items: center;
+      
+      margin: 0px;
+      margin-top: 10px;
+      margin-bottom: 16px;
     }
   
 
