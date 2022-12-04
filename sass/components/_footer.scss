@@ -3,18 +3,21 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--bacground);
+    background-size: 100% 100%
+    width: auto;
     height: 603px;
+    margin: 0px;
     
     padding: 60px 15px 0px 15px;
     
     
   }
   .footer__bacground {
-    
     display: flex;
     align-items: center;
     margin: 0 auto;
     flex-flow: column;
+    justify-content: space-between;
 
   }
 
