@@ -1,22 +1,23 @@
-
-@media screen and (min-width: 480px) {
-  .footer {
-    display: flex;
+.footer {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--bacground);
-    width: auto;
     height: 603px;
-    padding-top: 60px;
+    
+    padding: 60px 15px 0px 15px;
+    
+    
   }
   .footer__bacground {
-    max-width: 480px;
-    width: 100%;
+    
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     flex-flow: column;
-    padding: 0;
+
   }
+
   .footer__container {
     display: flex;
     align-items: center;
@@ -38,7 +39,6 @@
   }
 
 
-}
 
 
 
@@ -46,8 +46,7 @@
 
 
 
-
-
+/*
 @media screen and (min-width: 1200px) {
 .footer {
     background-color: var(--bacground);
@@ -87,3 +86,4 @@
     text-decoration: none;
   }
 }
+*/

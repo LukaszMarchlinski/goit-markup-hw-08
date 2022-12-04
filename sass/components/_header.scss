@@ -1,10 +1,7 @@
-.container {
-  width: 100%;
-  padding: 0, 15px;
-  
-}
-@media screen and (min-width: 480px) {
+
   .container {
+    width: 100%;
+    padding: 0, 15px;
     display: flex;
     max-width: 480px;
     width: 100%;
@@ -45,7 +42,6 @@
   position:absolute;
   display: none;
 }
-}
 
 
 
@@ -53,6 +49,7 @@
 
 
 
+/*
 
 @media screen and (min-width: 720px) {
   .container {
@@ -185,3 +182,4 @@
     color: #2196F3;
   }
 }
+*/

@@ -1,11 +1,11 @@
 
 
-@media screen and (min-width: 480px){
-  .mail__address {
+.mail__address {
   display: none;
-  position: absolute;
   }
-}
+
+
+/*
 @media screen and (min-width: 1200px) {
   .mail__address {
     color: var(--gray);
@@ -24,6 +24,9 @@
 
   
   .mail__envelope {
+    
+    
+
     display: flex;
     align-items: center;
     margin-right: 10px;
@@ -35,3 +38,4 @@
     }
   }
 }
+*/

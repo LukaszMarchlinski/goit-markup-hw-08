@@ -1,6 +1,4 @@
-
-@media screen and (min-width: 480px) {
-    .portfolio-navigation{
+.portfolio-navigation{
         
         max-width: 480px;
         width: 100%;
@@ -10,11 +8,10 @@
         display: flex;
         flex-wrap: wrap;
     }
-    }
 
 
 
-
+/*
 @media screen and (min-width: 1200px) {
 .portfolio-navigation{
     max-width: 1200px;
@@ -26,3 +23,4 @@
     justify-content: center;
 }
 }
+*/

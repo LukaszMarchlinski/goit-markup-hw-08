@@ -1,28 +1,22 @@
-
-@media screen and (min-width: 480px) {
 .personal-bacgraund {
   background-color: var(--lightgray);
-  width: 480px;
+  width: auto;
   height: 2761px;
   margin: 0 auto;
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: 0px;
+  padding: 0px 15px 0px 15px;
+  
 }
-}
-@media screen and (min-width: 480px) {
 .personal {
-  max-width: 480px;
-  width: 100%;
   margin: 0 auto;
   justify-content: space-between;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-}
-@media screen and (min-width: 480px) {
 .personal__list {
   justify-content: space-between;
   display: flex;
@@ -35,15 +29,13 @@
   width: 100%;
   margin-top: 0px;
 }
-}
 
 
 
 
 
 
-
-
+/*
 @media screen and (min-width: 1200px) {
 .personal-bacgraund {
     background-color: var(--lightgray);
@@ -80,3 +72,4 @@
     margin-top: 50px;
   }
 }
+*/

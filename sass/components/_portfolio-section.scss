@@ -1,5 +1,4 @@
-@media screen and (min-width: 480px) {
-    .portfolio-section {
+.portfolio-section {
         align-items: center;
         display: flex;
         padding: 0, 15px;
@@ -34,9 +33,9 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    }
+    
 
-
+/*
 @media screen and (min-width: 1200px) {
 .portfolio-section__container {
     max-width: 1200px;
@@ -62,3 +61,4 @@
     gap: 40px;
 }
 }
+*/

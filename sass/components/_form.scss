@@ -1,15 +1,10 @@
-@media screen and (min-width: 480px) {
-  
- 
-  .form {
-    
+.form {
     display: flex;
     align-items: center;
     vertical-align: auto;
     margin: 0px;
     flex-direction: column;
     }
-    
     .form__title {
       display: flex;
       color: var(--dark);
@@ -22,7 +17,6 @@
       padding: 0;
       margin: 40px 0px 2px 0px;
     }
-    
     .form__label {
       margin-right: auto;
       display: flex;
@@ -197,7 +191,6 @@
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
     .form__stat-text {
       display: flex;
       font-size: 12px;
@@ -231,9 +224,8 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
       }
     }
-  }
 
-
+/*
 @media screen and (min-width: 1200px) {
 .form {
     flex-direction: column;
@@ -450,3 +442,4 @@
     }
   }
 }
+*/
