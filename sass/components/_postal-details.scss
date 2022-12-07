@@ -6,6 +6,10 @@
     justify-content: space-between;
     margin: 0px;
     padding: 0px;
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+
+    }
   }
   .postal-details__lista-footer {
     display: flex;
@@ -14,8 +18,8 @@
     justify-content: space-between;
     list-style-type: none;
     margin:0px;
-
   }
+    
   .postal-details__address {
     display: flex;
     flex-flow: column;

@@ -50,15 +50,20 @@
         </div>
         </div>
         <ul class="header__list">
-                    <li><a class="mail__address" href="mailto:info@devstudio.com">
-                            <svg class="mail__envelope" width="16" height="12">
-                                <use href="./images/icons.svg#icon-envelope"></use>
-                            </svg>info@devstudio.com</a></li>
-                    <li><a class="tel__address" href="tel:+48111111111">
-                            <svg class="tel__telephonico" width="10" height="16">
-                                <use href="./images/icons.svg#icon-telephon"></use>
-                            </svg>+48 111 111 111</a></li>
-                </ul>
+            <li><a class="header__agency1" href="index.html">Agencja</a></li>
+            <li><a class="header__portfolio1" href="portfolio.html">Portfolio</a></li>
+            <li><a class="header__contact" href="">Kontakt</a></li>
+        </ul>
+        <ul class="header__list-contact">
+            <li><a class="mail__address" href="mailto:info@devstudio.com">
+                    <svg class="mail__envelope" width="16" height="12">
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>info@devstudio.com</a></li>
+            <li><a class="tel__address" href="tel:+48111111111">
+                    <svg class="tel__telephonico" width="10" height="16">
+                        <use href="./images/icons.svg#icon-telephon"></use>
+                    </svg>+48 111 111 111</a></li>
+        </ul>
             </div>
         </div>
     </header>
@@ -76,7 +81,16 @@
             <ul class="portfolio-section__list-4">
                 <li class="portfolio-box">
                     <div class="portfolio-box__image">
-                        <div class="portfolio-box__p-image-1"></div>
+                    <img src="./images/portfolio1.jpg"
+                    srcset="
+                    ./images/portfolio1.jpg 370w,
+                    ./images/portfolio1@2x.jpg 740w,
+                    ./images/ptablet-1.jpg 354w,
+                    ./images/ptablet-1@2x.jpg 708w,
+                    ./images/pombile-1.jpg 450w,
+                    ./images/pombile-1@2x.jpg 900w,"
+                    
+                    sizes="(min-width:1200px) 370px, (min-width:768px) 354px,(min-width:480px) 450px, 90vw">
                     
                         <div class="portfolio-box__text">
                             <p class="portfolio-box__croll-text">Technocrack jest popularną platformą wykorzystywaną do
@@ -90,7 +104,15 @@
                 </li>
                 <li class="portfolio-box">
                     <div class="portfolio-box__image">
-                        <div class="portfolio-box__p-image-2"></div>
+                        <img src="./images/pmobile-2.jpg"
+                    srcset="
+                    ./images/pombile-2.jpg 450w,
+                    ./images/pombile-2@2x.jpg 900w,
+                    ./images/ptablet-2.jpg 354w,
+                    ./images/ptablet-2@2x.jpg 708w,
+                    ./images/portfolio2.jpg 370w,
+                    ./images/portfolio2@2x.jpg 740w,"
+                    sizes="(min-width:1200px) 370px, (min-width:768px) 354px, (min-width:480px) 450px,">
                     
                         <div class="portfolio-box__text">
                             <p class="portfolio-box__croll-text">Technocrack jest popularną platformą wykorzystywaną do
@@ -245,22 +267,26 @@
                 </ul>
             </div>
             <div class="newsletter">
+                <div class="newsletter__box-footer">
                 <form>
                 <label for="email">ZAPISZ SIĘ DO NEWSLETTERA</label>
             
                 <fieldset class="newsletter__fieldset-footer">
                     <input class="newsletter__input-footer" type="email" required placeholder="E-mail" id="email"/>
                 </fieldset>
-            </form>
             </div>
-            <div class="newsletter-button">
+                <div class="newsletter-button-desk"></div>
                 <button class="newsletter-button__button-send" type="submit"><svg width="130" height="30">
                     <use href="./images/icons.svg#icon-Group-1"></use>
                 </svg>
             </button>
         </div>
+        </div>
+            </form>   
+</div>
 
-            
+
+
         </div>
     </footer>
     <script src="./css/js/modal.js"></script>

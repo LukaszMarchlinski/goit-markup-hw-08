@@ -7,8 +7,13 @@
   display: flex;
   justify-content: space-between;
   margin-top: 0px;
-  padding: 0px 15px 0px 15px;
-  
+  padding: 0px 15px 30px 15px;
+  @media screen and (min-width: 768px) {
+    height: 1285px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 708px;
+  }
 }
 .personal {
   margin: 0 auto;
@@ -16,7 +21,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 }
+
 .personal__list {
   justify-content: space-between;
   display: flex;
@@ -25,7 +32,14 @@
   padding: 0;
   margin: 0 auto;
   list-style-type: none;
-  margin-top: 0px;
+  margin-bottom: 0px;
+  @media screen and (min-width: 768px) {
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
 }
 
 

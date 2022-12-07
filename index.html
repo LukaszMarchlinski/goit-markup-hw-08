@@ -54,8 +54,7 @@
                 <li><a class="header__portfolio" href="portfolio.html">Portfolio</a></li>
                 <li><a class="header__contact" href="">Kontakt</a></li>
             </ul>
-            <div>
-                <ul class="header__list">
+                <ul class="header__list-contact">
                     <li><a class="mail__address" href="mailto:info@devstudio.com">
                             <svg class="mail__envelope" width="16" height="12">
                                 <use href="./images/icons.svg#icon-envelope"></use>
@@ -65,7 +64,7 @@
                                 <use href="./images/icons.svg#icon-telephon"></use>
                             </svg>+48 111 111 111</a></li>
                 </ul>
-            </div>
+            
         </div>
     </header>
     <section class="section-banner">
@@ -117,7 +116,7 @@
                                     <use href="./images/icons.svg#icon-Vector-3"></use></svg>
                             </span>
 
-                           <span class="form__stat-text"> Oświadczam iż akceptuję <a class="form__stat-text-web" href="">Regulamin</a> i <a class="form__stat-text-web" href="">Politykę Prywatności.</a></span>
+                           <span class="form__stat-text"> Oświadczam iż akceptuję&nbsp <a class="form__stat-text-web" href="">Regulamin</a> &nbspi&nbsp <a class="form__stat-text-web" href="">Politykę Prywatności.</a></span>
                         </label>
                         <button class="form__button-stat" type="submit">Wyślij</button>
                     
@@ -131,7 +130,7 @@
     <section class="section2">
 
         <ul class="section2__list2">
-            <li>
+            <li class="section2__wrap">
                 <div class="boxicon">
                     <svg class="boxicon__antenna" height="70" width="65,32">
                         <use href="./images/icons.svg#icon-antenna"></use>
@@ -141,7 +140,7 @@
                 <p class="section2__text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed
                     non sodales dui. Interdum et malesuada</p>
             </li>
-            <li>
+            <li class="section2__wrap">
                 <div class="boxicon">
                     <svg class="boxicon__clock" height="70" width="66,96">
                         <use href="./images/icons.svg#icon-clock"></use>
@@ -152,7 +151,7 @@
                     non
                     sodales dui. Interdum et malesuada</p>
             </li>
-            <li>
+            <li class="section2__wrap">
                 <div class="boxicon">
                     <svg class="boxicon__diagram" height="70" width="53,69">
                         <use href="./images/icons.svg#icon-diagram"></use>
@@ -163,7 +162,7 @@
                     non
                     sodales dui. Interdum et malesuada</p>
             </li>
-            <li>
+            <li class="section2__wrap">
                 <div class="boxicon">
                     <svg class="boxicon__astronaut" height="70" width="70,0">
                         <use href="./images/icons.svg#icon-astronaut"></use>
@@ -369,7 +368,7 @@
                     </svg></a>
             </li>
             <li><a class="customers__icon" href="">
-                    <svg class="customers__logo065" width="106" height="auto">
+                    <svg class="customers__logo06" width="106" height="auto">
                         <use href="./images/icons.svg#icon-logo6"></use>
                     </svg></a>
             </li>
@@ -419,22 +418,26 @@
                 </ul>
             </div>
             <div class="newsletter">
+                <div class="newsletter__box-footer">
                 <form>
                 <label for="email">ZAPISZ SIĘ DO NEWSLETTERA</label>
             
                 <fieldset class="newsletter__fieldset-footer">
                     <input class="newsletter__input-footer" type="email" required placeholder="E-mail" id="email"/>
                 </fieldset>
-            </form>
             </div>
-            <div class="newsletter-button">
+                <div class="newsletter-button-desk"></div>
                 <button class="newsletter-button__button-send" type="submit"><svg width="130" height="30">
                     <use href="./images/icons.svg#icon-Group-1"></use>
                 </svg>
             </button>
         </div>
+        </div>
+            </form>   
+</div>
 
-            
+
+
         </div>
     </footer>
     <script src="./css/js/modal.js"></script>

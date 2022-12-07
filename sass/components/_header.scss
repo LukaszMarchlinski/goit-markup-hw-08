@@ -1,17 +1,26 @@
 
   .container {
+    width: 100%;
     padding: 0, 15px;
     display: flex;
-    max-width: auto;
-    width: 100%;
-    margin: 0, auto;
-}
+    align-items: center;
+justify-content: center; 
+margin: auto;
+ }
+    
+  
+    
+
 .header {
+  background-color: var(white);
+  width: auto;
+  height: 80px;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0px 15px;
   width: auto;
   display: flex;
+  margin: 0px;
   align-items: center;
   border-bottom: solid;
   size: 1px;
@@ -32,6 +41,11 @@
   text-decoration: none;
   margin-right: auto;
 }
+@media screen and (min-width: 480px), (max-width: 480px){
+  .header__list, .header__list-contact {
+  display: none;
+}
+}
 
 @media screen and (min-width: 768px) {
   
@@ -40,16 +54,32 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin: 0, auto;
     margin-right: auto;
-    position:absolute;
-    display: none;
+    padding: 0px;
+    @media screen and (min-width: 768px) { 
+      margin-left: 83px;
+      
+      }
+    @media screen and (min-width: 1200px) { 
+    margin-left: 93px;
+    margin-right: 350px;
+    
+    }
   }
+    
+  
 .header__agency {
+  display: flex;
     align-items: center;
     color: var(--blue);
     font-weight: 500;
-    text-decoration: none;
-    margin-right: 46px;
+    text-decoration: none;;
+    margin-right: 60px;
+    padding: 0px;
+    @media screen and (min-width: 1200px) {
+      margin-right: 46px;
+    }
   
     &:hover {
       color: var(--blue);
@@ -70,14 +100,18 @@
       height: 4px;
       background-color: var(--blue);
       border-radius: 2px;
-      bottom: -32px;
       left: 0px;
+      bottom: -34px;
+
     }
   }
   .header__agency1, .header__portfolio {
     font-weight: 500;
     text-decoration: none;
-    margin-right: 46px;
+    margin-right: 60px;
+    @media screen and (min-width: 1200px) {
+      margin-right: 46px;
+    }
   
     &:visited {
       color: var(--black);
@@ -93,8 +127,11 @@
     color: var(--blue);
     font-weight: 500;
     text-decoration: none;
-    margin-right: 46px;
+    margin-right: 60px;
     position: relative;
+    @media screen and (min-width: 1200px) {
+      margin-right: 46px;
+    }
   
     &:after {
       content: "";
@@ -110,7 +147,7 @@
   .header__contact {
     font-weight: 500;
     text-decoration: none;
-  
+    margin:0px;
     &:visited {
       color: var(--black);
     }

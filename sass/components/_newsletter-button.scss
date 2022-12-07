@@ -1,10 +1,7 @@
-.newsletter-button {
-    margin-top: 20px;
-    padding: 0;
-    padding-bottom: 60px;
-  }
+
   
   .newsletter-button__button-send {
+   
     display: flex;
     color: var(--white);
     font-size: 16px;
@@ -19,6 +16,16 @@
     text-align: center;
     justify-content: center;
     margin: 0 auto;
+    margin:0px;
+    margin-top: 20px;
+    @media screen and (min-width: 786px) {
+      align-items: center;
+      justify-content: center;
+          }
+    @media screen and (min-width: 1200px) {
+margin-top: 33px;
+    }
+   
   
     &:hover {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -26,6 +33,7 @@
       gap: 7px;
     }
   }
+
 
 /*
 @media screen and (min-width: 1200px) {

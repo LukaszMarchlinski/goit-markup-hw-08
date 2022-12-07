@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     flex-direction: column;
-    margin: 0 auto;
     justify-content: space-between;
-    margin: 0, auto;
+    margin: auto;
     padding-top: 60px;
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+    }
 
   }
 
@@ -15,12 +16,13 @@
     display: flex;
     align-items: center;
     list-style-type: none;
-    margin-top: 30px;
-    justify-content:center;
-    padding: 0;
     flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 30px;
+    padding: 0;
     gap: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 94px;
+    
   }
   .customers__icon {
     justify-content: space-between;
@@ -30,10 +32,12 @@
     height: 92px;
     margin: 0 auto;
     padding: 0;
-    border: solid;
-    size: 1px;
+    border: 1px solid;
     color: var(--icony);
     border-radius: 4px;
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+    }
   
     &:hover {
       color: var(--blue);

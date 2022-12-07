@@ -12,6 +12,18 @@
       cursor: pointer;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+      @media screen and (min-width: 768px) {
+        width: 354px;
+      height: 440px;
+      margin-bottom: 0px;
+        }
+        @media screen and (min-width: 1200px) {
+          width: 370px;
+        height: 404px;
+        margin-bottom: 0px;
+        justify-content: center;
+          }
     
       &:hover {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -23,61 +35,16 @@
       width: 450px;
       height: 294px;
       position: relative;
+      
+      @media screen and (min-width: 768px) {
+        width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+          width: 370px;
+          }
     }
-    .portfolio-box__p-image-1 {
-      display: flex;
-      background-image: url("../images/pmobile-1.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-2 {
-      display: flex;
-      background-image: url("../images/pmobile-2.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-3 {
-      display: flex;
-      background-image: url("../images/pmobile-3.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-4 {
-      display: flex;
-      background-image: url("../images/pmobile-4.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-5 {
-      display: flex;
-      background-image: url("../images/pmobile-5.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-6 {
-      display: flex;
-      background-image: url("../images/pmobile-6.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-7 {
-      display: flex;
-      background-image: url("../images/pmobile-7.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-8 {
-      display: flex;
-      background-image: url("../images/pmobile-8.jpg");
-      width: 450px;
-      height: 294px;
-    }
-    .portfolio-box__p-image-9 {
-      display: flex;
-      background-image: url("../images/pmobile-9.jpg");
-      width: 450px;
-      height: 294px;
-    }
+    
+    
     
     .portfolio-box__text {
       position: absolute;

@@ -16,10 +16,14 @@
       letter-spacing: 0.03em;
       padding: 0;
       margin: 40px 0px 2px 0px;
+
+      @media screen and (min-width: 1200px) {
+    width: auto;
+      }
     }
     .form__label {
-      margin-right: auto;
       display: flex;
+      margin: auto;
       margin-top: 10px;
       padding: 0, 15px;
       font-size: 12px;
@@ -42,6 +46,11 @@
       
       padding: 0;
       cursor: pointer;
+
+      @media screen and (min-width: 1200px) {
+      width: 448px;
+      margin-left: 0px;
+      }
     }
     
     .form__name-ico {
@@ -55,6 +64,7 @@
       margin-left: 15px;
       margin-top: 10px;
       padding: 0;
+
     }
     
     .form__input {
@@ -104,6 +114,12 @@
       margin-top: 4px;
       padding: 0;
       cursor: pointer;
+      @media screen and (min-width: 1200px) {
+        width: 448px;
+        margin-left: 0px;
+        }
+
+      
     
       &:hover {
         border-color: var(--blue);
@@ -197,8 +213,10 @@
       color: var(--gray);
       font-weight: 400;
       margin-left: 45px;
+      @media screen and (min-width: 1200px) {
+        font-size: 14px;
     }
-    
+  }
     .form__stat-text-web {
       color: var(--blue);
       font-weight: 400;

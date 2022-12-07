@@ -1,10 +1,53 @@
 
 
-.mail__address {
-  display: none;
+
+
+    .header__list-contact {
+      display: none;
+      
+      @media screen and (min-width: 768px) {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;      }
+      @media screen and (min-width: 1200px) {
+        flex-direction:inherit;
+        align-items: center;
+    }
   }
 
 
+
+    .mail__address {
+      color: var(--gray);
+      font-weight: 500;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    
+      &:hover {
+        color: var(--blue);
+        --color3:var(--blue);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+  
+    
+    .mail__envelope {
+      
+      
+  
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    
+      &:hover {
+        --color3:var(--blue);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+  
 /*
 @media screen and (min-width: 1200px) {
   .mail__address {

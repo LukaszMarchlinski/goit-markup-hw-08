@@ -7,16 +7,35 @@
     height: 603px;
     margin: 0px;
     
-    padding: 60px 15px 0px 15px;
+    padding:0px;
+    @media screen and (min-width: 768px) {
+      height: 463px
+    }
+    @media screen and (min-width: 1200px) {
+      height: 252px
+    }
     
     
   }
   .footer__bacground {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     flex-flow: column;
     justify-content: space-between;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 76px;
+      
+    }
+    @media screen and (min-width: 1200px) {
+      
+      padding: 0 15px;
+      justify-content: space-between;
+      
+    }
 
   }
 
@@ -25,6 +44,9 @@
     align-items: center;
     justify-content: space-between;
     flex-flow: column;
+    @media screen and (min-width: 1200px) {
+      display:grid;
+    }
   }
   .footer__logo-first {
     color: var(--blue);

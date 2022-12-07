@@ -1,10 +1,44 @@
-
+@media screen and (min-width: 480px), (max-width: 480px){
     .tel__address {
     display: none;
     }
+    }
+      .tel__address {
+        color: var(--gray);
+        font-weight: 500;
+        text-decoration: none;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        margin-top: 10px;
+    
+        @media screen and (min-width: 1200px) {
+          margin-left: 30px;
+          margin-top: 0px;
+        }
+      
+        &:hover {
+          color: var(--blue);
+          --color3:var(--blue);
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+      }
+    
+      
+      .tel__telephonico {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+      
+        &:hover {
+          --color3:var(--blue);
+          transition-duration: 250ms;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+      }
+    
   
-
-
   /*
 @media screen and (min-width: 1200px) {
 .tel__address {
