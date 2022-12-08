@@ -2,12 +2,11 @@
   background-color: var(--lightgray);
   width: auto;
   height: 2761px;
-  margin: 0 auto;
+  margin: auto;
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: 0px;
-  padding: 0px 15px 30px 15px;
   @media screen and (min-width: 768px) {
     height: 1285px;
   }
@@ -32,7 +31,6 @@
   padding: 0;
   margin: 0 auto;
   list-style-type: none;
-  margin-bottom: 0px;
   @media screen and (min-width: 768px) {
     gap: 30px;
     flex-direction: row;
@@ -40,6 +38,17 @@
     justify-content: center;
     
   }
+}
+.personal__list2 {
+  margin-bottom: 30px;
+
+@media screen and (min-width: 768px) {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 1200px) {
+  margin-bottom: 0px;
+}
+
 }
 
 

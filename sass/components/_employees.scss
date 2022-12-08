@@ -4,91 +4,40 @@
       align-items: center;
       background-color: var(--white);
       flex-direction: column;
-      width: 450px;
+      width: auto;
       height: 622px;
       justify-content: center;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
-      padding-bottom: 30px;
       @media screen and (min-width: 768px) {
 
-      width: 354px;
+      width: auto;
       height: 536px;
       }
       
       @media screen and (min-width: 1200px) {
-        width: 270px;
+        width: auto;
         height: 428px;
         }
   }
-  .emplyees__personal-img1 {
-    display: flex;
-    background-image: url("../images/1-JohnD-mobile.jpg");
+  .emplyees__personal-img10 {
+    margin-top: 0px;
     width: 100%;
     height: 460px;
-    justify-content: center;
-
+    object-fit: cover;
     @media screen and (min-width: 768px) {
-      background-image: url("../images/jdoetablet1.jpg");
-      padding: 0px;
-      margin: 0px;
-      display: block;
+
+      width: auto;
       height: 374px;
- }
- @media screen and (min-width: 1200px) {
-      background-image: url("../images/doedesk1.jpg");
-      height: 260px;
-     }
+      }
+      
+      @media screen and (min-width: 1200px) {
+        width: auto;
+        height: 260px;
+        }
 }
 
-  .emplyees__personal-img2 {
-    display: flex;
-    background-image: url("../images/2-JohnD-mobile.jpg");
-    width: 100%;
-    height: 460px;
-    justify-content: center;
-    @media screen and (min-width: 768px) {
-      background-image: url("../images/jdoetablet2.jpg");
-      height: 374px;
-      @media screen and (min-width: 1200px) {
-        background-image: url("../images/doedesk2.jpg");
-        height: 260px;
-       }
-      }
-  }
-  .emplyees__personal-img3 {
-    display: flex;
-    background-image: url("../images/3-JohnD-mobile.jpg");
-    width: 100%;
-    height: 460px;
-    justify-content: center;
-    @media screen and (min-width: 768px) {
-      background-image: url("../images/jdoetablet3.jpg");
-      height: 374px;
- }
- @media screen and (min-width: 1200px) {
-  background-image: url("../images/doedesk3.jpg");
-  height: 260px;
- }
-  }
-  .emplyees__personal-img4 {
-    display: flex;
-    background-image: url("../images/4-JohnD-mobile.jpg");
-    width: 100%;
-    height: 460px;
-    justify-content: center;
-    @media screen and (min-width: 768px) {
-      background-image: url("../images/jdoetablet4.jpg");
-      height: 374px;
-    }
-    @media screen and (min-width: 1200px) {
-      background-image: url("../images/doedesk4.jpg");
-      height: 260px;
-     }
-
- }
-  
-    
+ 
     .emplyees__personal {
       margin-top: 30px;
       font-size: 16px;
