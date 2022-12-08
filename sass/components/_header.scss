@@ -4,8 +4,9 @@
     padding: 0, 15px;
     display: flex;
     align-items: center;
-justify-content: center; 
-margin: auto;
+margin: 0px;
+justify-content: center;
+
  }
     
   
@@ -50,7 +51,7 @@ margin: auto;
 @media screen and (min-width: 768px) {
   
   .header__list {
-    align-items: center;
+    justify-content: center;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -59,7 +60,7 @@ margin: auto;
     padding: 0px;
     @media screen and (min-width: 768px) { 
       margin-left: 83px;
-      
+      margin-right: auto;
       }
     @media screen and (min-width: 1200px) { 
     margin-left: 93px;

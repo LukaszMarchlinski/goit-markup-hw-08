@@ -1,5 +1,7 @@
 
   
+.js-menu-container {display:none}
+.js-menu-container.is-open {display:block}
 
   .menu-toggle {
     display: flex;
@@ -19,7 +21,23 @@
     .menu-toggle {
       display: none;
     }
+    @media (min-width: 1200px) {
+        .menu-toggle {
+          display: none;
+        }
   }
+}
+.header__menumob {
+    @media (min-width: 768px) {
+        .menu-toggle {
+          display: none;
+        }
+        @media (min-width: 1200px) {
+            .menu-toggle {
+              display: none;
+            }
+      }
+    }}
   
   .menu-toggle:hover,
   .menu-toggle:focus {
@@ -27,12 +45,14 @@
   }
   
   .menu-container {
+    overflow: scroll;
+
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
-    padding: 32px;
+    padding: 0px;
     background-color:var(--white);
     z-index: 999;
   
@@ -147,6 +167,8 @@
     list-style-type: none;
     padding: 0px;
     gap: 10px;
+    padding-left: 40px;
+    padding-bottom: 48px;
 }
 .media-menu__facebookt, .media-menu__twittert, .media-menu__instagramt{
     font-size: 18px;
