@@ -1,6 +1,5 @@
 .portfolio-box {
       text-decoration: none;
-      width: 450px;
       height: 404px;
       border-bottom: solid;
       size: 1px;
@@ -12,12 +11,10 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       
       @media screen and (min-width: 768px) {
-        width: 354px;
       
       margin-bottom: 0px;
         }
         @media screen and (min-width: 1200px) {
-        width: 370px;
         margin-bottom: 0px;
         justify-content: center;
           }
@@ -31,24 +28,17 @@
     .portfolio-box__image {
 
       overflow: hidden;
-      width: 450px;
       position: relative;
-      
-      @media screen and (min-width: 768px) {
-        width: 354px;
-        }
-        @media screen and (min-width: 1200px) {
-          width: 370px;
-          }
     }
-    .imgport {
-      margin: auto;
+    .portfolio-box__img {
+      width: 100%;
       object-fit: cover;
     }
     
     
     .portfolio-box__text {
       position: absolute;
+      transform: matrix();
       width: 100%;
       height: 100%;
       background: var(--blue);
