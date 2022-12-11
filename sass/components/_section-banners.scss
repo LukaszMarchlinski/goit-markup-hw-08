@@ -44,38 +44,6 @@
 }
 
 
-
-  
-  /*
-  @media screen and (min-width: 768px){
-    background-image: url("../images/Headertablet.jpg");
-  
-   screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .section-banner {
-      background-image: url("../images/Headertablet@2x");
-    }
-  }
-
-  @media screen and (min-width: 1200px){
-    background-image: url("../images/desktop.jpg");
-  
-   screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .section-banner {
-      background-image: url("../images/desktop@2x");
-    }
-  }
-}}
-*/
-     
-    
-  
-
-    
-
     .section-banner__heading {
       display: flex;
       align-items: center;
@@ -95,4 +63,7 @@
         font-size: 44px;
         width: 696px;
       }
+      @media screen and (max-width: 450px) {
+        width: auto;
        }
+      }

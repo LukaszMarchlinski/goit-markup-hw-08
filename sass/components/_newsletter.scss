@@ -42,8 +42,10 @@ flex-wrap: wrap;
       margin-right: 12px;
 
     }
+    @media screen and (max-width: 480px) {
+      width: auto;
   }
-  
+}
   .newsletter__input-footer {
     border: 0;
     background-color: transparent;
